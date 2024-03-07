@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #000B18;
+    /* background-color: #000B18; */
+  }
+.ComponentSection_herosectionBg__fVpcc{
+     background-image: url("images/pngwing.com.png");
+  }
+.ComponentSection_roadmap1BG__O0Khc {
+  background-image: url("images/Roadmap_1.png");
+}
+
+.ComponentSection_roadmap2BG__YqMuA {
+  background-image: url("images/Roadmap_2.png");
+}
+.ComponentSection_roadmap3BG__agQvV {
+  background-image: url("images/Roadmap_3.png");
+}
+ .ComponentSection_roadmap4BG__kNPOV{
+  background-image: url("images/Roadmap_4.png");
+}
+.ComponentSection_roadmap5BG__4dGX2  {
+  background-image: url("images/Roadmap_5.png");
+}
+
+.ComponentSection_CallToActionBg__k8P2V{
+    background-image: url("images/CallToActionBg.png");
+}
+.ComponentSection_AdvantageBg__wr_c0 {
+    background-image: url("images/Main_advantage_bg.png");
+}
+.ComponentSection_ProblemBg__Z027I {
+    background-image: url("images/problem_bg.png");
+}
+.ComponentSection_SolutionBg__aFOOg {
+    background-image: url("images/solution_bg.png");
+}
+.ComponentSection_VideoFallBackImg__uL_MJ {
+    background-image: url("images/VideoFallBackImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+}
+.ComponentSection_contentContainer__1BwhD {
+    background-image: url("images/WebsiteFeautresBg.png");
+    position: relative;
+    z-index: 1;
+}
+.bg-vulcan {
+  --tw-bg-opacity: 2;
+  /* background-color: rgb(0 1 27 / var(--tw-bg-opacity)); */
+  background-color: #121a25;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
